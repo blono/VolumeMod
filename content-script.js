@@ -33,9 +33,9 @@ const volumeMod = (multiplier) => {
                         multiplyMedia(video, multiplier);
                     }
                 }
-			} catch (e) {
-				console.error(e);
-			}
+            } catch (e) {
+                console.error(e);
+            }
         }
     }
 
@@ -51,9 +51,9 @@ const volumeMod = (multiplier) => {
                         multiplyMedia(audio, multiplier);
                     }
                 }
-			} catch (e) {
-				console.error(e);
-			}
+            } catch (e) {
+                console.error(e);
+            }
         }
     }
 }
